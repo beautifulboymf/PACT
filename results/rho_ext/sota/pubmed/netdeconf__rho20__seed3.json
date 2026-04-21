@@ -1,0 +1,24 @@
+{
+  "tag": "pubmed/netdeconf__rho20__seed3",
+  "config": "pact/configs/server/pubmed.yaml",
+  "learner": "netdeconf",
+  "rho": 20.0,
+  "seed": 3,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 60,
+  "val": {
+    "qini": 0.3808586597442627,
+    "auuc": 6758.151661171697,
+    "lift@30": 6827.5224609375,
+    "pehe": 4.181325912475586,
+    "ate": 1.7682361602783203
+  },
+  "test": {
+    "qini": 0.3652653694152832,
+    "auuc": 6367.387423935092,
+    "lift@30": 6176.13671875,
+    "pehe": 3.9964351654052734,
+    "ate": 1.645037055015564
+  }
+}

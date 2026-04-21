@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Data & model artifacts (large binary files)
+*.npy
+*.pt
+*.pth
+*.mat
+*.csv
+data/
+datasets/
+runs/
+
+# Allow result JSONs and markdown in results/
+!results/*.json
+!results/*.md
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# PDF papers
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# Wandb
+wandb/
+
+
+# Private server-specific configs (machine paths)
+pact/configs/server/
+
+# Training run logs (ephemeral, not scientific content)
+results/**/run.log

@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/gdc__rho15__seed1",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "gdc",
+  "rho": 15.0,
+  "seed": 1,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 40,
+  "val": {
+    "qini": 0.4312928020954132,
+    "auuc": 5671.031573629704,
+    "lift@30": 5431.59375,
+    "pehe": 4.080452919006348,
+    "ate": 1.6007070541381836
+  },
+  "test": {
+    "qini": 0.4255523085594177,
+    "auuc": 5673.22486104093,
+    "lift@30": 5674.89501953125,
+    "pehe": 4.178866863250732,
+    "ate": 1.5953961610794067
+  }
+}

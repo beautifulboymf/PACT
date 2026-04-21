@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/gial__rho20__seed1",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "gial",
+  "rho": 20.0,
+  "seed": 1,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 50,
+  "val": {
+    "qini": 0.29239529371261597,
+    "auuc": 5373.223036120233,
+    "lift@30": 4828.283203125,
+    "pehe": 5.3667988777160645,
+    "ate": 2.4964590072631836
+  },
+  "test": {
+    "qini": 0.2926972508430481,
+    "auuc": 5477.495704901466,
+    "lift@30": 4942.65234375,
+    "pehe": 5.0464582443237305,
+    "ate": 2.482222557067871
+  }
+}

@@ -1,0 +1,18 @@
+# Criteo Uplift v2.1 — non-graph baseline using PACTNoGraph.
+dataset:
+  name: Criteo
+  csv_path: data/criteo-uplift-v2.1.csv
+  max_rows: null
+model:
+  encoder_hidden: [256, 128]
+  mlp_hidden: [128, 128]
+  dropout: 0.0
+  use_variance: true
+train:
+  epochs: 30
+  lr: 1.0e-3
+  weight_decay: 1.0e-5
+  batch_size: 4096
+  loss_weights: { mu: 1.0, tau: 1.0, sigma: 0.25, prop: 1.0 }
+  delta: 0.01
+  select_metric: qini

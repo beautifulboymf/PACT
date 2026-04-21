@@ -1,0 +1,24 @@
+{
+  "tag": "pubmed/gdc_gpe__rho15__seed1",
+  "config": "pact/configs/server/pubmed.yaml",
+  "learner": "gdc",
+  "rho": 15.0,
+  "seed": 1,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 70,
+  "val": {
+    "qini": 0.5590918660163879,
+    "auuc": 7429.436469693127,
+    "lift@30": 7720.484375,
+    "pehe": 3.0310311317443848,
+    "ate": 0.3172738552093506
+  },
+  "test": {
+    "qini": 0.4886329174041748,
+    "auuc": 6734.689655172414,
+    "lift@30": 6752.8515625,
+    "pehe": 3.122906446456909,
+    "ate": 0.36815667152404785
+  }
+}

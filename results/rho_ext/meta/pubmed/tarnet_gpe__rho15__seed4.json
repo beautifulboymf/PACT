@@ -1,0 +1,24 @@
+{
+  "tag": "pubmed/tarnet_gpe__rho15__seed4",
+  "config": "pact/configs/server/pubmed.yaml",
+  "learner": "tarnet",
+  "rho": 15.0,
+  "seed": 4,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 50,
+  "val": {
+    "qini": 0.4615614712238312,
+    "auuc": 6885.106264265787,
+    "lift@30": 6782.19970703125,
+    "pehe": 3.9278786182403564,
+    "ate": 1.6670737266540527
+  },
+  "test": {
+    "qini": 0.4708462357521057,
+    "auuc": 6757.392494929006,
+    "lift@30": 6605.5556640625,
+    "pehe": 3.778604030609131,
+    "ate": 1.6017045974731445
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/gnum_gpe__rho20__seed0",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "gnum",
+  "rho": 20.0,
+  "seed": 0,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 70,
+  "val": {
+    "qini": 0.344031423330307,
+    "auuc": 5552.105582217731,
+    "lift@30": 5119.712890625,
+    "pehe": 4.807502269744873,
+    "ate": 1.3900645971298218
+  },
+  "test": {
+    "qini": 0.34700146317481995,
+    "auuc": 5625.55128852956,
+    "lift@30": 5116.3427734375,
+    "pehe": 5.459378719329834,
+    "ate": 1.3991272449493408
+  }
+}

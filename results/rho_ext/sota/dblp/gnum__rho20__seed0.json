@@ -1,0 +1,24 @@
+{
+  "tag": "dblp/gnum__rho20__seed0",
+  "config": "pact/configs/server/dblp.yaml",
+  "learner": "gnum",
+  "rho": 20.0,
+  "seed": 0,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 80,
+  "val": {
+    "qini": 0.3286457359790802,
+    "auuc": 4399.116850127011,
+    "lift@30": 4043.48291015625,
+    "pehe": 3.935931444168091,
+    "ate": 1.3568686246871948
+  },
+  "test": {
+    "qini": 0.36329033970832825,
+    "auuc": 4554.55489697996,
+    "lift@30": 4454.8427734375,
+    "pehe": 3.9995970726013184,
+    "ate": 1.323807716369629
+  }
+}

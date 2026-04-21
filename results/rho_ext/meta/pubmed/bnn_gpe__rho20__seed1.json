@@ -1,0 +1,24 @@
+{
+  "tag": "pubmed/bnn_gpe__rho20__seed1",
+  "config": "pact/configs/server/pubmed.yaml",
+  "learner": "bnn",
+  "rho": 20.0,
+  "seed": 1,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 160,
+  "val": {
+    "qini": 0.45009028911590576,
+    "auuc": 7112.191224955617,
+    "lift@30": 7392.86328125,
+    "pehe": 5.399343013763428,
+    "ate": 1.711720585823059
+  },
+  "test": {
+    "qini": 0.3732190430164337,
+    "auuc": 6503.989858012171,
+    "lift@30": 6561.1484375,
+    "pehe": 5.3869733810424805,
+    "ate": 1.7576912641525269
+  }
+}

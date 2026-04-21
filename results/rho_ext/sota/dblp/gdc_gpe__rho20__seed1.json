@@ -1,0 +1,24 @@
+{
+  "tag": "dblp/gdc_gpe__rho20__seed1",
+  "config": "pact/configs/server/dblp.yaml",
+  "learner": "gdc",
+  "rho": 20.0,
+  "seed": 1,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 40,
+  "val": {
+    "qini": 0.37251514196395874,
+    "auuc": 4782.251199548406,
+    "lift@30": 4795.29833984375,
+    "pehe": 3.105790138244629,
+    "ate": 0.18514001369476318
+  },
+  "test": {
+    "qini": 0.37423446774482727,
+    "auuc": 4903.960485464296,
+    "lift@30": 4935.53125,
+    "pehe": 3.248910665512085,
+    "ate": 0.3933985233306885
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/netdeconf__rho20__seed1",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "netdeconf",
+  "rho": 20.0,
+  "seed": 1,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 150,
+  "val": {
+    "qini": 0.3261740803718567,
+    "auuc": 5601.78630967416,
+    "lift@30": 4914.49755859375,
+    "pehe": 4.913172245025635,
+    "ate": 1.435697317123413
+  },
+  "test": {
+    "qini": 0.3208070695400238,
+    "auuc": 5663.525012632643,
+    "lift@30": 5219.2734375,
+    "pehe": 5.790570259094238,
+    "ate": 1.5530534982681274
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tag": "dblp/pact_nogpe__rho20__seed4",
+  "config": "pact/configs/server/dblp.yaml",
+  "learner": "pact",
+  "rho": 20.0,
+  "seed": 4,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 40,
+  "val": {
+    "qini": 0.4532323181629181,
+    "auuc": 5087.685012701101,
+    "lift@30": 5492.759765625,
+    "pehe": 3.422607183456421,
+    "ate": 0.28177785873413086
+  },
+  "test": {
+    "qini": 0.40513095259666443,
+    "auuc": 4647.322325712673,
+    "lift@30": 4899.35546875,
+    "pehe": 3.31072735786438,
+    "ate": 0.31559228897094727
+  }
+}

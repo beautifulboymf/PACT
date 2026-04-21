@@ -1,0 +1,24 @@
+{
+  "tag": "dblp/tarnet_gpe__rho15__seed2",
+  "config": "pact/configs/server/dblp.yaml",
+  "learner": "tarnet",
+  "rho": 15.0,
+  "seed": 2,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 30,
+  "val": {
+    "qini": 0.5234335064888,
+    "auuc": 5022.27434377646,
+    "lift@30": 5343.2001953125,
+    "pehe": 3.3953161239624023,
+    "ate": 1.0033082962036133
+  },
+  "test": {
+    "qini": 0.4883865714073181,
+    "auuc": 4958.904882867626,
+    "lift@30": 5206.0107421875,
+    "pehe": 3.417687177658081,
+    "ate": 0.990575909614563
+  }
+}

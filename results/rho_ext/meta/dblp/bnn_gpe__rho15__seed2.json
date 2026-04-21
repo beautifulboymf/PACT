@@ -1,0 +1,24 @@
+{
+  "tag": "dblp/bnn_gpe__rho15__seed2",
+  "config": "pact/configs/server/dblp.yaml",
+  "learner": "bnn",
+  "rho": 15.0,
+  "seed": 2,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 50,
+  "val": {
+    "qini": 0.3995712697505951,
+    "auuc": 4436.505786057014,
+    "lift@30": 4613.8359375,
+    "pehe": 4.713078022003174,
+    "ate": 1.2654451131820679
+  },
+  "test": {
+    "qini": 0.3628199100494385,
+    "auuc": 4352.914479254869,
+    "lift@30": 4260.77880859375,
+    "pehe": 4.892917156219482,
+    "ate": 1.3729854822158813
+  }
+}

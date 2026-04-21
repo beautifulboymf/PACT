@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/tarnet_gpe__rho20__seed1",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "tarnet",
+  "rho": 20.0,
+  "seed": 1,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 30,
+  "val": {
+    "qini": 0.36138129234313965,
+    "auuc": 5840.022733013388,
+    "lift@30": 5532.78125,
+    "pehe": 4.912566184997559,
+    "ate": 1.3567984104156494
+  },
+  "test": {
+    "qini": 0.3867560029029846,
+    "auuc": 6099.973218797372,
+    "lift@30": 5882.1923828125,
+    "pehe": 4.701338768005371,
+    "ate": 1.3162392377853394
+  }
+}

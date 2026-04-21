@@ -1,0 +1,24 @@
+{
+  "tag": "pubmed/gial_gpe__rho15__seed3",
+  "config": "pact/configs/server/pubmed.yaml",
+  "learner": "gial",
+  "rho": 15.0,
+  "seed": 3,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 70,
+  "val": {
+    "qini": 0.4099999964237213,
+    "auuc": 6999.9168146081665,
+    "lift@30": 6750.1484375,
+    "pehe": 3.466092348098755,
+    "ate": 0.5517481565475464
+  },
+  "test": {
+    "qini": 0.41416415572166443,
+    "auuc": 7165.134888438134,
+    "lift@30": 6923.86962890625,
+    "pehe": 3.3387467861175537,
+    "ate": 0.4519599676132202
+  }
+}

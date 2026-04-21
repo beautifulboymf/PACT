@@ -1,0 +1,43 @@
+# CoraFull config — values from PACT paper Table 2.
+dataset:
+  name: CoraFull
+  root: data/CoraFull
+  pos_emb_path: null              # set to a precomputed node2vec .npy if available
+dgp:
+  emb_dim: 256
+  C: 5.0
+  beta_0: -0.3
+  beta_1: 0.3
+  gamma: 0.6
+  kappa1: 0.2
+  kappa2: 0.1
+  kappa3: 0.03
+  kappa4: 0.05
+  hops: 5
+  rho: 10.0
+  intra_w: 3.0
+  pos_dim: 128
+model:
+  pos_dim: 128
+  fusion_embed_dim: 256
+  fusion_heads: 4
+  use_gpe: true
+  backbone: gat
+  gnn_hidden: [256, 128, 128, 128, 128]
+  gnn_heads: 4
+  mlp_hidden: [128, 128, 128, 128]
+  dropout: 0.0
+  use_variance: true
+train:
+  epochs: 200
+  lr: 0.05
+  weight_decay: 1.0e-4
+  train_frac: 0.6
+  val_frac: 0.2
+  learner: pact
+  loss_weights: { mu: 1.0, tau: 1.0, sigma: 0.25, prop: 1.0 }
+  use_uncertainty_weighting: false
+  delta: 0.01
+  select_metric: qini
+  normalize_y: true
+  log_every: 10

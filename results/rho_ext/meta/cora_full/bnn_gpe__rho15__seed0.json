@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/bnn_gpe__rho15__seed0",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "bnn",
+  "rho": 15.0,
+  "seed": 0,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 40,
+  "val": {
+    "qini": 0.48648056387901306,
+    "auuc": 5935.298307653447,
+    "lift@30": 5913.3359375,
+    "pehe": 5.6364898681640625,
+    "ate": 1.5179355144500732
+  },
+  "test": {
+    "qini": 0.4719409644603729,
+    "auuc": 6255.720060636685,
+    "lift@30": 6131.17578125,
+    "pehe": 6.217284202575684,
+    "ate": 1.515128254890442
+  }
+}

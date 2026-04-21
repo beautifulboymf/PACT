@@ -1,0 +1,770 @@
+[
+  {
+    "spec": "bnn",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.33353214263916,
+    "pehe_std": 0.4234006381957837
+  },
+  {
+    "spec": "bnn_gpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.46411542892456,
+    "pehe_std": 0.4109110482491188
+  },
+  {
+    "spec": "tarnet",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.8135685443878176,
+    "pehe_std": 0.4409215735390411
+  },
+  {
+    "spec": "tarnet_gpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.056446886062622,
+    "pehe_std": 0.8624118342608694
+  },
+  {
+    "spec": "x",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.3376088619232176,
+    "pehe_std": 0.11063451588874229
+  },
+  {
+    "spec": "x_gpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.490970182418823,
+    "pehe_std": 0.41084092811552947
+  },
+  {
+    "spec": "pact_nogpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.534582757949829,
+    "pehe_std": 0.2682211394380828
+  },
+  {
+    "spec": "pact",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.241245412826538,
+    "pehe_std": 0.33397304937220423
+  },
+  {
+    "spec": "bnn",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.390704917907715,
+    "pehe_std": 0.39583094446363426
+  },
+  {
+    "spec": "bnn_gpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.456307888031006,
+    "pehe_std": 0.41460615512789295
+  },
+  {
+    "spec": "tarnet",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.27790789604187,
+    "pehe_std": 0.5822578773989425
+  },
+  {
+    "spec": "tarnet_gpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.446033573150634,
+    "pehe_std": 0.8106591885636804
+  },
+  {
+    "spec": "x",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.136314153671265,
+    "pehe_std": 0.5698401082599179
+  },
+  {
+    "spec": "x_gpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.635086679458618,
+    "pehe_std": 0.4040374648032232
+  },
+  {
+    "spec": "pact_nogpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.7728025913238525,
+    "pehe_std": 0.4367574460619401
+  },
+  {
+    "spec": "pact",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.87155818939209,
+    "pehe_std": 0.5547436488852743
+  },
+  {
+    "spec": "bnn",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.96621789932251,
+    "pehe_std": 0.09397663668989706
+  },
+  {
+    "spec": "bnn_gpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.005222606658935,
+    "pehe_std": 0.09964445787834361
+  },
+  {
+    "spec": "tarnet",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.620035982131958,
+    "pehe_std": 0.5378508564981811
+  },
+  {
+    "spec": "tarnet_gpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 2.999536371231079,
+    "pehe_std": 0.315384838272363
+  },
+  {
+    "spec": "x",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 2.956405591964722,
+    "pehe_std": 0.21124038931277667
+  },
+  {
+    "spec": "x_gpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 2.9682257175445557,
+    "pehe_std": 0.47925342975695406
+  },
+  {
+    "spec": "pact_nogpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.3211161136627196,
+    "pehe_std": 0.8232053662589486
+  },
+  {
+    "spec": "pact",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 2.780551862716675,
+    "pehe_std": 0.226767050652521
+  },
+  {
+    "spec": "bnn",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.969465732574463,
+    "pehe_std": 0.03294157638188243
+  },
+  {
+    "spec": "bnn_gpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.023689842224121,
+    "pehe_std": 0.03583743586909341
+  },
+  {
+    "spec": "tarnet",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.210540437698365,
+    "pehe_std": 0.36741956703873835
+  },
+  {
+    "spec": "tarnet_gpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.9059024810791017,
+    "pehe_std": 0.6014565835694791
+  },
+  {
+    "spec": "x",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.6848088264465333,
+    "pehe_std": 0.2689915326761068
+  },
+  {
+    "spec": "x_gpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.6958250045776366,
+    "pehe_std": 0.6098407871979303
+  },
+  {
+    "spec": "pact_nogpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.238688611984253,
+    "pehe_std": 0.11755249640869796
+  },
+  {
+    "spec": "pact",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.139313507080078,
+    "pehe_std": 0.27672258123216303
+  },
+  {
+    "spec": "bnn",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.436611366271973,
+    "pehe_std": 0.10153182888184219
+  },
+  {
+    "spec": "bnn_gpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.483691024780273,
+    "pehe_std": 0.09004793622856803
+  },
+  {
+    "spec": "tarnet",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.039005851745605,
+    "pehe_std": 0.6173216381108713
+  },
+  {
+    "spec": "tarnet_gpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.632899618148804,
+    "pehe_std": 0.3140705112064363
+  },
+  {
+    "spec": "x",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.696307325363159,
+    "pehe_std": 0.46180217450062
+  },
+  {
+    "spec": "x_gpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.7229583263397217,
+    "pehe_std": 0.187600990750158
+  },
+  {
+    "spec": "pact_nogpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.4644495487213134,
+    "pehe_std": 0.08291675081592359
+  },
+  {
+    "spec": "pact",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.4376466274261475,
+    "pehe_std": 0.09096055275829153
+  },
+  {
+    "spec": "bnn",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.409863471984863,
+    "pehe_std": 0.1552464218652856
+  },
+  {
+    "spec": "bnn_gpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.441720867156983,
+    "pehe_std": 0.09684786171280779
+  },
+  {
+    "spec": "tarnet",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.88228063583374,
+    "pehe_std": 0.33920995006759336
+  },
+  {
+    "spec": "tarnet_gpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.986924648284912,
+    "pehe_std": 0.4778687720354129
+  },
+  {
+    "spec": "x",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.5138269424438477,
+    "pehe_std": 0.12323968869229049
+  },
+  {
+    "spec": "x_gpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.8430501937866213,
+    "pehe_std": 0.1303050976503962
+  },
+  {
+    "spec": "pact_nogpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.6514355182647704,
+    "pehe_std": 0.11220941410299054
+  },
+  {
+    "spec": "pact",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.8428433418273924,
+    "pehe_std": 0.24244762698049596
+  },
+  {
+    "spec": "netdeconf",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 6.553966045379639,
+    "pehe_std": 1.638677602178367
+  },
+  {
+    "spec": "netdeconf_gpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.087493515014648,
+    "pehe_std": 0.7988227855553585
+  },
+  {
+    "spec": "gial",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.799826812744141,
+    "pehe_std": 1.3255615677042536
+  },
+  {
+    "spec": "gial_gpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 5.293948936462402,
+    "pehe_std": 0.6197842779237287
+  },
+  {
+    "spec": "gnum",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 6.135163593292236,
+    "pehe_std": 1.5852168430171827
+  },
+  {
+    "spec": "gnum_gpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.803920841217041,
+    "pehe_std": 0.484306003803318
+  },
+  {
+    "spec": "gdc",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.19449462890625,
+    "pehe_std": 0.1126598294486344
+  },
+  {
+    "spec": "gdc_gpe",
+    "dataset": "cora_full",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.740447664260864,
+    "pehe_std": 0.6197481675871757
+  },
+  {
+    "spec": "netdeconf",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.9156036376953125,
+    "pehe_std": 0.6170383406531895
+  },
+  {
+    "spec": "netdeconf_gpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.739780902862549,
+    "pehe_std": 0.2957383713650064
+  },
+  {
+    "spec": "gial",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.534788703918457,
+    "pehe_std": 0.641902326297736
+  },
+  {
+    "spec": "gial_gpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.965604496002197,
+    "pehe_std": 0.2852126333689034
+  },
+  {
+    "spec": "gnum",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 5.186848068237305,
+    "pehe_std": 0.7318642721645974
+  },
+  {
+    "spec": "gnum_gpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.756027507781982,
+    "pehe_std": 0.39835653672778293
+  },
+  {
+    "spec": "gdc",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.357573223114014,
+    "pehe_std": 0.25904772626534395
+  },
+  {
+    "spec": "gdc_gpe",
+    "dataset": "cora_full",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.835914707183838,
+    "pehe_std": 0.22191076228920847
+  },
+  {
+    "spec": "netdeconf",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.122692012786866,
+    "pehe_std": 0.20968532868015152
+  },
+  {
+    "spec": "netdeconf_gpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.9691636085510256,
+    "pehe_std": 0.13429205312305026
+  },
+  {
+    "spec": "gial",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.570975685119629,
+    "pehe_std": 0.5278431394828983
+  },
+  {
+    "spec": "gial_gpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.014460277557373,
+    "pehe_std": 0.2528527833386492
+  },
+  {
+    "spec": "gnum",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.9502315521240234,
+    "pehe_std": 0.05939585270594844
+  },
+  {
+    "spec": "gnum_gpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.939587450027466,
+    "pehe_std": 0.10189824372403782
+  },
+  {
+    "spec": "gdc",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.40737042427063,
+    "pehe_std": 0.27643017042303836
+  },
+  {
+    "spec": "gdc_gpe",
+    "dataset": "dblp",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 2.989061212539673,
+    "pehe_std": 0.1663045603655965
+  },
+  {
+    "spec": "netdeconf",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.255078315734863,
+    "pehe_std": 0.22783887372482212
+  },
+  {
+    "spec": "netdeconf_gpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.016369199752807,
+    "pehe_std": 0.14986591056763993
+  },
+  {
+    "spec": "gial",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.35058479309082,
+    "pehe_std": 0.24841242526098184
+  },
+  {
+    "spec": "gial_gpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.005946493148803,
+    "pehe_std": 0.35127754697057867
+  },
+  {
+    "spec": "gnum",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.243623542785644,
+    "pehe_std": 0.24791021302613098
+  },
+  {
+    "spec": "gnum_gpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.021883535385132,
+    "pehe_std": 0.045590008317726936
+  },
+  {
+    "spec": "gdc",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.5837106227874758,
+    "pehe_std": 0.23166003602344942
+  },
+  {
+    "spec": "gdc_gpe",
+    "dataset": "dblp",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.151319694519043,
+    "pehe_std": 0.2109663232551575
+  },
+  {
+    "spec": "netdeconf",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.9999969959259034,
+    "pehe_std": 0.43268259740710824
+  },
+  {
+    "spec": "netdeconf_gpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.669868993759155,
+    "pehe_std": 0.546128483974528
+  },
+  {
+    "spec": "gial",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.8282270431518555,
+    "pehe_std": 0.36287738672271724
+  },
+  {
+    "spec": "gial_gpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.3217678546905516,
+    "pehe_std": 0.08447329418786224
+  },
+  {
+    "spec": "gnum",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 4.290924072265625,
+    "pehe_std": 0.3428293985903993
+  },
+  {
+    "spec": "gnum_gpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.937787914276123,
+    "pehe_std": 0.15648562149302286
+  },
+  {
+    "spec": "gdc",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.6857269287109373,
+    "pehe_std": 0.4648494525987476
+  },
+  {
+    "spec": "gdc_gpe",
+    "dataset": "pubmed",
+    "rho": 15,
+    "n": 5,
+    "pehe_mean": 3.7127893924713136,
+    "pehe_std": 0.7324565357467766
+  },
+  {
+    "spec": "netdeconf",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.111552715301514,
+    "pehe_std": 0.42516048668675754
+  },
+  {
+    "spec": "netdeconf_gpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.021159029006958,
+    "pehe_std": 0.6404185445447318
+  },
+  {
+    "spec": "gial",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.1735227584838865,
+    "pehe_std": 0.16760019025033213
+  },
+  {
+    "spec": "gial_gpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.6111352920532225,
+    "pehe_std": 0.556317181415005
+  },
+  {
+    "spec": "gnum",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.2712232112884525,
+    "pehe_std": 0.41737383462131594
+  },
+  {
+    "spec": "gnum_gpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.1073158264160154,
+    "pehe_std": 0.08005463857314982
+  },
+  {
+    "spec": "gdc",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 4.024417400360107,
+    "pehe_std": 0.1529836099172888
+  },
+  {
+    "spec": "gdc_gpe",
+    "dataset": "pubmed",
+    "rho": 20,
+    "n": 5,
+    "pehe_mean": 3.1713467597961427,
+    "pehe_std": 0.20290002555710263
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "source": "Mechanism analysis §5.5. Each row: propensity head AUC with and without GPE, and test PEHE with and without GPE, at rho=10, 5 seeds (mean).",
+  "points": [
+    {"model": "TARNet",    "dataset": "DBLP",     "auc_nogpe": 0.620, "auc_gpe": 0.644, "pehe_nogpe": 2.47, "pehe_gpe": 2.23},
+    {"model": "GDC",       "dataset": "DBLP",     "auc_nogpe": 0.458, "auc_gpe": 0.535, "pehe_nogpe": 3.23, "pehe_gpe": 2.72},
+    {"model": "X-learner", "dataset": "DBLP",     "auc_nogpe": 0.621, "auc_gpe": 0.621, "pehe_nogpe": 2.42, "pehe_gpe": 2.21},
+    {"model": "TARNet",    "dataset": "CoraFull", "auc_nogpe": 0.656, "auc_gpe": 0.692, "pehe_nogpe": 3.01, "pehe_gpe": 2.52},
+    {"model": "GDC",       "dataset": "CoraFull", "auc_nogpe": 0.468, "auc_gpe": 0.606, "pehe_nogpe": 4.03, "pehe_gpe": 3.49},
+    {"model": "X-learner", "dataset": "CoraFull", "auc_nogpe": 0.641, "auc_gpe": 0.689, "pehe_nogpe": 3.21, "pehe_gpe": 2.55}
+  ]
+}

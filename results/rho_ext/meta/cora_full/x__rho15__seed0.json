@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/x__rho15__seed0",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "x",
+  "rho": 15.0,
+  "seed": 0,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 40,
+  "val": {
+    "qini": 0.5198125839233398,
+    "auuc": 6104.802727961606,
+    "lift@30": 5837.6064453125,
+    "pehe": 3.019409656524658,
+    "ate": 0.5585383176803589
+  },
+  "test": {
+    "qini": 0.5251797437667847,
+    "auuc": 6546.382516422435,
+    "lift@30": 6313.61328125,
+    "pehe": 3.344090461730957,
+    "ate": 0.6352317333221436
+  }
+}

@@ -1,0 +1,28 @@
+# BlogCatalog (Guo et al. 2020 WSDM benchmark). Point `root` at your local
+# path — the WSDM datasets must be downloaded manually from
+# https://github.com/rguo12/network-deconfounder-wsdm20 and placed under data/.
+dataset:
+  name: BlogCatalog
+  root: data/wsdm_datasets/BlogCatalog   # adjust to your layout
+  extra_str: "1"                         # confounding bias: 0.5 | 1 | 2
+dgp: {}                                  # not used for WSDM benchmarks (real treatments)
+model:
+  pos_dim: 128
+  fusion_embed_dim: 256
+  fusion_heads: 4
+  use_gpe: true
+  backbone: gat
+  gnn_hidden: [256, 128, 128, 128, 128]
+  gnn_heads: 4
+  mlp_hidden: [128, 128, 128, 128]
+  dropout: 0.0
+  use_variance: true
+train:
+  epochs: 200
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  train_frac: 0.6
+  val_frac: 0.2
+  learner: pact
+  loss_weights: { mu: 1.0, tau: 1.0, sigma: 0.25, prop: 1.0 }
+  delta: 0.01

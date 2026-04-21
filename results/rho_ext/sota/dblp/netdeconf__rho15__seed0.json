@@ -1,0 +1,24 @@
+{
+  "tag": "dblp/netdeconf__rho15__seed0",
+  "config": "pact/configs/server/dblp.yaml",
+  "learner": "netdeconf",
+  "rho": 15.0,
+  "seed": 0,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 140,
+  "val": {
+    "qini": 0.4067719578742981,
+    "auuc": 4429.270674569574,
+    "lift@30": 4207.2978515625,
+    "pehe": 4.199268341064453,
+    "ate": 1.215664029121399
+  },
+  "test": {
+    "qini": 0.4372209906578064,
+    "auuc": 4498.398532317246,
+    "lift@30": 4339.2861328125,
+    "pehe": 4.21334981918335,
+    "ate": 1.1877644062042236
+  }
+}

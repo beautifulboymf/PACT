@@ -1,0 +1,24 @@
+{
+  "tag": "pubmed/pact_nogpe__rho15__seed2",
+  "config": "pact/configs/server/pubmed.yaml",
+  "learner": "pact",
+  "rho": 15.0,
+  "seed": 2,
+  "no_gpe": true,
+  "community_detection": null,
+  "epoch": 30,
+  "val": {
+    "qini": 0.4937072694301605,
+    "auuc": 6763.366472229267,
+    "lift@30": 6675.693359375,
+    "pehe": 3.3096938133239746,
+    "ate": 0.5488715171813965
+  },
+  "test": {
+    "qini": 0.4955866038799286,
+    "auuc": 7042.228194726166,
+    "lift@30": 7042.56787109375,
+    "pehe": 3.332298994064331,
+    "ate": 0.6048959493637085
+  }
+}

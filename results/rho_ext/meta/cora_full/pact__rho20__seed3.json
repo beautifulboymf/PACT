@@ -1,0 +1,24 @@
+{
+  "tag": "cora_full/pact__rho20__seed3",
+  "config": "pact/configs/server/cora_full.yaml",
+  "learner": "pact",
+  "rho": 20.0,
+  "seed": 3,
+  "no_gpe": false,
+  "community_detection": null,
+  "epoch": 60,
+  "val": {
+    "qini": 0.4072440564632416,
+    "auuc": 6115.919171507957,
+    "lift@30": 5900.82666015625,
+    "pehe": 3.7662241458892822,
+    "ate": 1.038986325263977
+  },
+  "test": {
+    "qini": 0.3958345353603363,
+    "auuc": 5854.522991409803,
+    "lift@30": 5481.7041015625,
+    "pehe": 3.8962786197662354,
+    "ate": 0.8409610986709595
+  }
+}
