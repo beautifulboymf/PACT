@@ -13,7 +13,7 @@ Design notes:
     s     -> S-learner: only mu_0 / mu_1, ITE = mu_1 - mu_0     (use_variance=False, only mu loss)
     x     -> vanilla X-learner (no variance head, no GPE optional)
     pact -> full PACT (variance head + GPE)
-- Best-model selection uses validation Qini by default (RecSys focus). PEHE
+- Best-model selection uses validation Qini by default. PEHE
   is also tracked for ablation tables.
 """
 

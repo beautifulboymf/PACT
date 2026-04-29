@@ -1,11 +1,13 @@
 # PACT: Graph Positional Encoding and Variance-Weighted Learning as Universal Plug-ins for Uplift Modeling
 
+**Paper:** [PACT_paper_anonymous.pdf](./PACT_paper_anonymous.pdf) (anonymous preprint)
+
 This repository provides the official implementation and experiment artifacts for **PACT** — two orthogonal, architecture-agnostic plug-ins for graph-based Individual Treatment Effect (ITE) estimation:
 
 1. **GPE (Graph Positional Encoding)**: multi-head cross-attention that fuses node features with node2vec positional embeddings, injecting community-/position-level structural information that standard message-passing GNNs cannot recover.
-2. **VWL (Variance-Weighted Learning)**: an inverse-variance sample reweighting scheme that targets heteroscedastic outcome noise. A learned $\log\sigma^2$ head handles continuous outcomes; an analytical Bernoulli variance $\mu(1{-}\mu)$ handles binary outcomes.
+2. **VWL (Variance-Weighted Learning)**: an inverse-variance sample reweighting scheme that targets heteroscedastic outcome noise. A learned `log σ²` head handles continuous outcomes; an analytical Bernoulli variance `μ(1−μ)` handles binary outcomes.
 
-Both modules attach to existing graph-ITE backbones without architecture changes. A **dual-root confounder** framing (a latent structural position $Z^*$ that simultaneously biases treatment assignment and drives heteroscedastic noise) motivates the modularity and predicts where each plug-in should — and should not — help.
+Both modules attach to existing graph-ITE backbones without architecture changes. A **dual-root confounder** framing (a latent structural position `Z*` that simultaneously biases treatment assignment and drives heteroscedastic noise) motivates the modularity and predicts where each plug-in should — and should not — help.
 
 ## Method Overview
 
@@ -17,9 +19,9 @@ Both modules attach to existing graph-ITE backbones without architecture changes
 
 ## Key Results
 
-**GPE is a plug-in that works across backbones** (mean $\Delta$PEHE across 90 cells = 15 cells $\times$ 6 separate-head backbones on CoraFull/DBLP/PubMed with $\rho \in \{5,10,15,20,30\}$, 5 seeds each; Wilcoxon $p < 10^{-5}$):
+**GPE is a plug-in that works across backbones** (mean ΔPEHE across 90 cells = 15 cells × 6 separate-head backbones on CoraFull/DBLP/PubMed with ρ ∈ {5, 10, 15, 20, 30}, 5 seeds each; Wilcoxon p < 10⁻⁵):
 
-| Backbone | Mean $\Delta$PEHE | W/T/L (of 15 cells) |
+| Backbone | Mean ΔPEHE | W/T/L (of 15 cells) |
 |---|---|---|
 | TARNet (T-learner) | **-13.5%** | 15/0/0 |
 | NetDeconf (2020) | **-9.6%** | 13/0/2 |
@@ -29,7 +31,7 @@ Both modules attach to existing graph-ITE backbones without architecture changes
 | X-learner | **-3.4%** | 9/0/6 |
 | BNN (S-learner) | +0.9% | 1/1/13 |
 
-Gain orders by bias-pathway headroom as theory predicts: TARNet (no internal position absorption) $\to$ X-learner (cross-fitted pseudo-outcome already exploits position via $\mu_{1-t}$). BNN essentially never benefits (only 1 win across 15 cells, within seed noise) — S-learner architectures cannot condition on position independently of treatment.
+Gain orders by bias-pathway headroom as theory predicts: TARNet (no internal position absorption) → X-learner (cross-fitted pseudo-outcome already exploits position via `μ_{1-t}`). BNN essentially never benefits (only 1 win across 15 cells, within seed noise) — S-learner architectures cannot condition on position independently of treatment.
 
 <p align="center">
   <img src="images/ablations_preview.png" alt="GDC ablation at rho=30 plus tabular Qini lifts" width="90%">
@@ -38,7 +40,7 @@ Gain orders by bias-pathway headroom as theory predicts: TARNet (no internal pos
 <p align="center"><i>Ablations. <b>Top</b>: GDC at ρ=30 across CoraFull, DBLP, PubMed — VWL alone drives the gain on variance-dominated PubMed; joint GPE+VWL wins on bias-dominated CoraFull and DBLP. <b>Bottom</b>: relative Qini lift from variance weighting on three tabular settings.</i></p>
 
 **VWL delivers complementary gains in variance-dominated regimes**:
-- Continuous Hillstrom spend: **+303% Qini** (0.029 → 0.117, 4×) — design regime of the learned $\log\sigma^2$ head.
+- Continuous Hillstrom spend: **+303% Qini** (0.029 → 0.117, 4×) — design regime of the learned `log σ²` head.
 - Unbalanced binary Hillstrom-visit: **+129% Qini** (0.007 → 0.016).
 - Balanced binary Criteo: **+16% Qini** (0.153 → 0.177).
 - GDC at high noise: VWL alone cuts PEHE by up to **-29%** on variance-dominated cells; joint GPE+VWL up to **-20%** on bias-dominated cells.
@@ -259,10 +261,10 @@ Cora/DBLP/PubMed use our semi-synthetic DGP (community-boosted treatment, multi-
 ### Tabular (real-world observational uplift)
 | Dataset | Rows | Outcome | Source | Role |
 |---|---|---|---|---|
-| Hillstrom (spend) | 64K | Continuous | MineThatData | Primary VWL showcase ($\log\sigma^2$ head design regime) |
-| Hillstrom (visit) | 64K | Binary ($\mu \approx 0.15$) | MineThatData | Unbalanced-binary scope |
+| Hillstrom (spend) | 64K | Continuous | MineThatData | Primary VWL showcase (`log σ²` head design regime) |
+| Hillstrom (visit) | 64K | Binary (μ ≈ 0.15) | MineThatData | Unbalanced-binary scope |
 | Criteo Uplift | 13.9M | Binary | Criteo AI Lab | Balanced-binary scope |
-| X5, Lenta, RetailHero | 200K, 690K, 200K | Binary ($\mu \approx 0.5$) | scikit-uplift | Appendix A null-finding (low baseline Qini, low dynamic range) |
+| X5, Lenta, RetailHero | 200K, 690K, 200K | Binary (μ ≈ 0.5) | scikit-uplift | Appendix A null-finding (low baseline Qini, low dynamic range) |
 
 ## Baselines Included
 
